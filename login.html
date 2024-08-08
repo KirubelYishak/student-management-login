@@ -6,52 +6,72 @@
   <title>Login To SMIS</title>
   <!-- to connect with style.css -->
   <link href="style.css" rel="stylesheet" type="text/css">
+  <!-- Font Awesome Link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 </head>
 <body>
-  <div class="upside">
+  <!-- this is the upperside division which contain divlogo and divlogin-->
+  <div class="upside"> 
+    <!-- this is divlogo which the AMU logo-->
     <div class="divlogo">
       <img src="Image\Logo.gif" id="logo">
       <h3>AMU | Office of the University <br> Registrar</h3><br>
       <hr>
       <p>This is our registrar portal for students, academic staffs and alumni to access different registrar services offered by the office of the university registrar.</p>
     </div>
+    <!-- this is divlogin and contains a login methods -->
     <div class="divlogin">
       <h4>Login To SMiS</h4>
       <hr><br><br>
-     <form>
-      <input type="text" placeholder="Username" class="label"> <br><br>
-      <input type="password" placeholder="password" class="label"> <br><br>
+      <form class="form-float">
+        <i class=" icon fa-solid fa-user fa-2xs"></i>
+        <input type="text" placeholder="        Username" class="input" id="userid"> 
+        <br><br>
+        <i class=" icon2 fa-solid fa-lock fa-2xs"></i>
+        <input type="password" placeholder="        password" class="input">
+        <br><br>
       <button type="submit" id="login">Login</button><br><br>
       <button type="reset" id="pass">Forget password?</button>
      </form>
     </div>
   </div>
+  <!-- finish the upperside division html-->
   <!-- V1 Commit-->
+  <!-- start the second division which is downside--> 
   <div class="downside">
 
     <div class="divgrid">
+      <i class="fa-solid fa-calendar-days fa-2x" id="calendar"></i>
       <h5>Academic <br> Calendar</h5>
     </div>
     <div class="divgrid">
+      <i class="fa-solid fa-comment-dots fa-2x" id="announce"></i>
       <h5>Registrar <br> Announcement</h5>
     </div>
     <div class="divgrid">
+      <i class="fa-solid fa-laptop fa-2x" id="tran"></i>
       <h5>Official <br> Transcript</h5>
     </div>
     <div class="divgrid">
+      <i class=" l fa-solid fa-cloud fa-2x"></i>
       <h5>Online <br> Admission</h5>
     </div>
     <div class="divgrid">
+      <i class=" l fa-solid fa-cloud fa-2x"></i>
       <h5>Online <br> Admission Tracking</h5>
     </div>
     <div class="divgrid">
+      <i class=" l fa-regular fa-user fa-2x"></i>
       <h5>Alumni <br> Registration</h5>
     </div>
     <div class="divgrid">
+      <i class=" l fa-solid fa-cloud fa-2x"></i>
       <h5>Forgery <br> Check</h5>
     </div>
 
   </div>
+  <!-- finish downside division html-->
   <!--V2 Commit-->
 </body>
+<!-- v4 commit | After final edition-->
 </html>
